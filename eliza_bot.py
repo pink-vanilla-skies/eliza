@@ -30,7 +30,7 @@ therapist = eliza.Eliza()
 
 
 def run_bot(r):
-    for comment in r.subreddit('TheSouthAsia').comments(limit=100):
+    for comment in r.subreddit('test').comments(limit=100):
         if re.search("talk to eliza", comment.body, re.IGNORECASE):
             if comment.id not in comment_replied_to:
                 print("string found in" + comment.id)

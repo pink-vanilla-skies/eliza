@@ -1,2 +1,2 @@
 # eliza
-An AI psychotherapist based on telnet's Eliza on telehack.com
+A reddit AI psychotherapist bot based on telnet's Eliza on telehack.com
